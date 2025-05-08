@@ -6,7 +6,7 @@ import torch.nn.functional as F
 
 class Trainer:
     """
-    TODO: support lr scheduler, auto mixed precision
+    min class to train
     """
 
     def __init__(self, model, lr, max_epochs) -> None:
